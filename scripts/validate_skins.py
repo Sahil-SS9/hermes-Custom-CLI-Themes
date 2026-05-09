@@ -16,7 +16,10 @@ REQUIRED_COLORS = [
     'voice_status_bg','completion_menu_bg','completion_menu_current_bg',
     'completion_menu_meta_bg','completion_menu_meta_current_bg',
 ]
-OPTIONAL_EXTENDED_COLORS = ['response_text','reasoning_border','reasoning_text','selection_bg']
+OPTIONAL_EXTENDED_COLORS = [
+    'response_text','reasoning_border','reasoning_text','selection_bg',
+    'blade_glow','blade_edge',
+]
 REQUIRED_SPINNER = ['waiting_faces','thinking_faces','thinking_verbs','wings']
 REQUIRED_BRANDING = ['agent_name','welcome','goodbye','response_label','prompt_symbol','help_header']
 
