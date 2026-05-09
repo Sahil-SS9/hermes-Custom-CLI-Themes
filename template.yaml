@@ -1,0 +1,61 @@
+name: my-skin
+description: My custom Hermes skin
+colors:
+  banner_border: '#CD7F32'
+  banner_title: '#FFD700'
+  banner_accent: '#FFBF00'
+  banner_dim: '#B8860B'
+  banner_text: '#FFF8DC'
+  ui_accent: '#FFBF00'
+  ui_label: '#4DD0E1'
+  ui_ok: '#4CAF50'
+  ui_error: '#EF5350'
+  ui_warn: '#FFA726'
+  prompt: '#FFF8DC'
+  input_rule: '#CD7F32'
+  response_border: '#FFD700'
+  response_text: '#FFF8DC'
+  reasoning_border: '#7EB8F6'
+  reasoning_text: '#C9D1D9'
+  session_label: '#DAA520'
+  session_border: '#8B8682'
+  status_bar_bg: '#1A1A2E'
+  status_bar_text: '#C0C0C0'
+  status_bar_strong: '#FFD700'
+  status_bar_dim: '#8B8682'
+  status_bar_good: '#8FBC8F'
+  status_bar_warn: '#FFD700'
+  status_bar_bad: '#FF8C00'
+  status_bar_critical: '#FF6B6B'
+  voice_status_bg: '#1A1A2E'
+  selection_bg: '#333355'
+  completion_menu_bg: '#1A1A2E'
+  completion_menu_current_bg: '#333355'
+  completion_menu_meta_bg: '#1A1A2E'
+  completion_menu_meta_current_bg: '#333355'
+spinner:
+  waiting_faces:
+  - (⚙)
+  - (◆)
+  - (◇)
+  thinking_faces:
+  - (⚙)
+  - (⌁)
+  - (<>)
+  thinking_verbs:
+  - processing
+  - analysing
+  - computing
+  wings:
+  - - ⟪⚡
+    - ⚡⟫
+branding:
+  agent_name: My Agent
+  welcome: Welcome. Type your message or /help for commands.
+  goodbye: Session closed.
+  response_label: ' ⚡ My Agent '
+  prompt_symbol: '⚡ '
+  help_header: (⚡) Commands
+tool_prefix: │
+banner_logo: '[bold #FFD700]MY AGENT[/]'
+banner_hero: '[#FFD700]Custom art here[/]'

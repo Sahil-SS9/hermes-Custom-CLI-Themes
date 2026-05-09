@@ -1,0 +1,70 @@
+name: noir-signal
+description: Detective terminal theme with smoke grey, amber lamp light, and late-night casework.
+colors:
+  banner_border: '#C28F2C'
+  banner_title: '#F6D58A'
+  banner_accent: '#C28F2C'
+  banner_dim: '#7A7368'
+  banner_text: '#F2E7D5'
+  ui_accent: '#F6D58A'
+  ui_label: '#C28F2C'
+  ui_ok: '#4CAF50'
+  ui_error: '#EF5350'
+  ui_warn: '#FFA726'
+  prompt: '#F6D58A'
+  input_rule: '#7A7368'
+  response_border: '#C28F2C'
+  response_text: '#F2E7D5'
+  reasoning_border: '#7A7368'
+  reasoning_text: '#DED0B8'
+  session_label: '#DAA520'
+  session_border: '#8B8682'
+  status_bar_bg: '#0A0908'
+  status_bar_text: '#F2E7D5'
+  status_bar_strong: '#F6D58A'
+  status_bar_dim: '#7A7368'
+  status_bar_good: '#8FBC8F'
+  status_bar_warn: '#FFD700'
+  status_bar_bad: '#FF8C00'
+  status_bar_critical: '#FF6B6B'
+  voice_status_bg: '#1A1A2E'
+  selection_bg: '#333355'
+  completion_menu_bg: '#1A1A2E'
+  completion_menu_current_bg: '#333355'
+  completion_menu_meta_bg: '#1A1A2E'
+  completion_menu_meta_current_bg: '#333355'
+spinner:
+  waiting_faces:
+  - (?)
+  - (☂)
+  - (◆)
+  thinking_faces:
+  - (☂)
+  - (◆)
+  - (⌕)
+  thinking_verbs:
+  - following the clue
+  - lighting the desk lamp
+  - reading smoke
+  - closing the file
+  wings:
+  - - (?)
+    - (⌕)
+branding:
+  agent_name: Noir Signal
+  welcome: Detective terminal theme with smoke grey, amber lamp light, and late-night casework.
+  goodbye: Session closed.
+  response_label: ' ⌕ NOIR '
+  prompt_symbol: '⌕ '
+  help_header: (⌕ NOIR) Commands
+tool_prefix: │
+tool_emojis:
+  terminal: ▣
+  web_search: ◉
+  read_file: ▤
+banner_logo: '[bold #F6D58A]NOIR SIGNAL[/]'
+banner_hero: '[#7A7368]smoke curls over the case file[/]
+
+  [#C28F2C]        LAMP ON · RAIN OUTSIDE[/]
+
+  [#F2E7D5]        THE CLUE IS IN THE NOISE[/]'

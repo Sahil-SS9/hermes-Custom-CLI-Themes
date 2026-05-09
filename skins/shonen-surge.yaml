@@ -1,0 +1,70 @@
+name: shonen-surge
+description: High-energy manga terminal theme with speed lines, aura colour, and battle-panel framing.
+colors:
+  banner_border: '#FF4FD8'
+  banner_title: '#FFE66D'
+  banner_accent: '#00E5FF'
+  banner_dim: '#8AA1FF'
+  banner_text: '#FFF5F7'
+  ui_accent: '#FF4FD8'
+  ui_label: '#00E5FF'
+  ui_ok: '#4CAF50'
+  ui_error: '#EF5350'
+  ui_warn: '#FFA726'
+  prompt: '#FFE66D'
+  input_rule: '#FF4FD8'
+  response_border: '#00E5FF'
+  response_text: '#FFF5F7'
+  reasoning_border: '#8AA1FF'
+  reasoning_text: '#DCE6FF'
+  session_label: '#DAA520'
+  session_border: '#8B8682'
+  status_bar_bg: '#130A2A'
+  status_bar_text: '#FFF5F7'
+  status_bar_strong: '#FFE66D'
+  status_bar_dim: '#8AA1FF'
+  status_bar_good: '#8FBC8F'
+  status_bar_warn: '#FFD700'
+  status_bar_bad: '#FF8C00'
+  status_bar_critical: '#FF6B6B'
+  voice_status_bg: '#1A1A2E'
+  selection_bg: '#333355'
+  completion_menu_bg: '#1A1A2E'
+  completion_menu_current_bg: '#333355'
+  completion_menu_meta_bg: '#1A1A2E'
+  completion_menu_meta_current_bg: '#333355'
+spinner:
+  waiting_faces:
+  - (⚡)
+  - (✦)
+  - (爆)
+  thinking_faces:
+  - (✦)
+  - (爆)
+  - (▲)
+  thinking_verbs:
+  - charging aura
+  - inking panels
+  - breaking limits
+  - finding the final form
+  wings:
+  - - (⚡)
+    - (▲)
+branding:
+  agent_name: Shonen Surge
+  welcome: High-energy manga terminal theme with speed lines, aura colour, and battle-panel framing.
+  goodbye: Session closed.
+  response_label: ' ⚡ SURGE '
+  prompt_symbol: '⚡ '
+  help_header: (⚡ SURGE) Commands
+tool_prefix: │
+tool_emojis:
+  terminal: ▣
+  web_search: ◉
+  read_file: ▤
+banner_logo: '[bold #FFE66D]SHONEN SURGE[/]'
+banner_hero: '[#FF4FD8]///  ///  ///[/]
+
+  [#00E5FF]    ENERGY RISING[/]
+
+  [#FFE66D]>>> BREAK LIMITS >>>[/]'

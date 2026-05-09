@@ -1,0 +1,5 @@
+PyYAML>=6.0
+rich>=13.0
+ansi2html>=1.8
+html2image>=2.0
+Pillow>=10.0

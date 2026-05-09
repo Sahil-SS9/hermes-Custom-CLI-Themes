@@ -1,0 +1,70 @@
+name: solar-forge
+description: Solar blacksmith theme with ember orange, molten gold, and dark forge heat.
+colors:
+  banner_border: '#FF7A18'
+  banner_title: '#FFD166'
+  banner_accent: '#EF476F'
+  banner_dim: '#A66A2C'
+  banner_text: '#FFF1D6'
+  ui_accent: '#FF7A18'
+  ui_label: '#FFD166'
+  ui_ok: '#4CAF50'
+  ui_error: '#EF5350'
+  ui_warn: '#FFA726'
+  prompt: '#FFD166'
+  input_rule: '#EF476F'
+  response_border: '#FF7A18'
+  response_text: '#FFF1D6'
+  reasoning_border: '#FFB86B'
+  reasoning_text: '#FFE6C7'
+  session_label: '#DAA520'
+  session_border: '#8B8682'
+  status_bar_bg: '#120803'
+  status_bar_text: '#FFF1D6'
+  status_bar_strong: '#FFD166'
+  status_bar_dim: '#A66A2C'
+  status_bar_good: '#8FBC8F'
+  status_bar_warn: '#FFD700'
+  status_bar_bad: '#FF7A18'
+  status_bar_critical: '#EF476F'
+  voice_status_bg: '#1A1A2E'
+  selection_bg: '#333355'
+  completion_menu_bg: '#1A1A2E'
+  completion_menu_current_bg: '#333355'
+  completion_menu_meta_bg: '#1A1A2E'
+  completion_menu_meta_current_bg: '#333355'
+spinner:
+  waiting_faces:
+  - (☀)
+  - (✹)
+  - (🔥)
+  thinking_faces:
+  - (✹)
+  - (🔥)
+  - (✦)
+  thinking_verbs:
+  - feeding embers
+  - hammering light
+  - tempering output
+  - pulling heat from noise
+  wings:
+  - - (☀)
+    - (✦)
+branding:
+  agent_name: Solar Forge
+  welcome: Solar blacksmith theme with ember orange, molten gold, and dark forge heat.
+  goodbye: Session closed.
+  response_label: ' ☀ FORGE '
+  prompt_symbol: '☀ '
+  help_header: (☀ FORGE) Commands
+tool_prefix: │
+tool_emojis:
+  terminal: ▣
+  web_search: ◉
+  read_file: ▤
+banner_logo: '[bold #FFD166]SOLAR FORGE[/]'
+banner_hero: '[#EF476F]      ember field[/]
+
+  [#FF7A18]   ███ molten signal ███[/]
+
+  [#FFD166]      HAMMER THE SUN[/]'
