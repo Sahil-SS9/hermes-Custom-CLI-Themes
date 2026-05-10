@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 .DS_Store
 screenshots/html/
+screenshots/preview/
 
 # Local editor / IDE
 .idea/

@@ -1,0 +1,29 @@
+# CI: validate every skin YAML on push and PR.
+# Adapted from joeynyc/hermes-skins/.github/workflows/validate.yml (MIT).
+# This workflow does not use any untrusted GitHub event inputs (no
+# `github.event.*` references), so the standard workflow injection
+# attack surface does not apply here.
+name: validate-skins
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install validator dependency
+        run: pip install PyYAML
+
+      - name: Validate skin schemas (require screenshots)
+        run: python3 scripts/validate_skins.py --require-screenshots
