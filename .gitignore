@@ -2,3 +2,17 @@ __pycache__/
 *.pyc
 .DS_Store
 screenshots/html/
+
+# Local editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Python envs
+.venv/
+.env
+
+# Agent context drops
+CLAUDE.md
+AGENTS.md

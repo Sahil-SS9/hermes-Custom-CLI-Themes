@@ -1,61 +1,100 @@
-name: my-skin
-description: My custom Hermes skin
+# Skin template — copy to skins/<your-name>.yaml and edit.
+# Delete any key you don't want to override; the loader inherits from the default skin.
+# Every colour must be a full "#RRGGBB" hex string.
+
+name: my-skin                                  # must match the filename stem
+description: One-line description of the skin. # shown in the README gallery + agent metadata
+
 colors:
-  banner_border: '#CD7F32'
-  banner_title: '#FFD700'
-  banner_accent: '#FFBF00'
-  banner_dim: '#B8860B'
-  banner_text: '#FFF8DC'
-  ui_accent: '#FFBF00'
-  ui_label: '#4DD0E1'
-  ui_ok: '#4CAF50'
-  ui_error: '#EF5350'
-  ui_warn: '#FFA726'
-  prompt: '#FFF8DC'
-  input_rule: '#CD7F32'
-  response_border: '#FFD700'
-  response_text: '#FFF8DC'
-  reasoning_border: '#7EB8F6'
-  reasoning_text: '#C9D1D9'
-  session_label: '#DAA520'
-  session_border: '#8B8682'
-  status_bar_bg: '#1A1A2E'
-  status_bar_text: '#C0C0C0'
-  status_bar_strong: '#FFD700'
-  status_bar_dim: '#8B8682'
-  status_bar_good: '#8FBC8F'
-  status_bar_warn: '#FFD700'
-  status_bar_bad: '#FF8C00'
-  status_bar_critical: '#FF6B6B'
-  voice_status_bg: '#1A1A2E'
-  selection_bg: '#333355'
-  completion_menu_bg: '#1A1A2E'
-  completion_menu_current_bg: '#333355'
-  completion_menu_meta_bg: '#1A1A2E'
-  completion_menu_meta_current_bg: '#333355'
+  # Banner panel (the startup banner)
+  banner_border:  "#CD7F32"  # banner outer border
+  banner_title:   "#FFD700"  # banner agent-name colour
+  banner_accent:  "#FFBF00"  # banner highlight / accent colour
+  banner_dim:     "#B8860B"  # banner muted/secondary text
+  banner_text:    "#FFF8DC"  # default banner body text
+
+  # General UI
+  ui_accent:      "#FFBF00"  # input chrome, highlights
+  ui_label:       "#4DD0E1"  # field labels
+  ui_ok:          "#4CAF50"  # success / OK states
+  ui_error:       "#EF5350"  # error states
+  ui_warn:        "#FFA726"  # warning states
+
+  # Prompt + response panels
+  prompt:           "#FFF8DC"  # text colour of the input prompt
+  input_rule:       "#CD7F32"  # rule line above the input
+  response_border:  "#FFD700"  # border of the agent response panel
+  response_text:    "#FFF8DC"  # body text of the agent response panel (extended key)
+  reasoning_border: "#7EB8F6"  # border of the reasoning panel (extended key)
+  reasoning_text:   "#C9D1D9"  # body text of the reasoning panel (extended key)
+
+  # Session identity
+  session_label:  "#DAA520"
+  session_border: "#8B8682"
+
+  # Status bar (bottom of the TUI)
+  status_bar_bg:        "#1A1A2E"
+  status_bar_text:      "#C0C0C0"
+  status_bar_strong:    "#FFD700"  # strong/important values (e.g. model name)
+  status_bar_dim:       "#8B8682"  # muted labels (e.g. "model:" "ctx:")
+  status_bar_good:      "#8FBC8F"
+  status_bar_warn:      "#FFD700"
+  status_bar_bad:       "#FF8C00"
+  status_bar_critical:  "#FF6B6B"
+  voice_status_bg:      "#1A1A2E"
+
+  # Completion menu + selection
+  selection_bg:                    "#333355"  # mouse-selection / current row highlight
+  completion_menu_bg:              "#1A1A2E"
+  completion_menu_current_bg:      "#333355"
+  completion_menu_meta_bg:         "#1A1A2E"
+  completion_menu_meta_current_bg: "#333355"
+
 spinner:
+  # Faces and verbs are cycled while the agent waits or thinks.
+  # Keep each list non-empty. 4-5 faces + 8-12 themed verbs feels right.
   waiting_faces:
-  - (⚙)
-  - (◆)
-  - (◇)
+    - "(⚙)"
+    - "(◆)"
+    - "(◇)"
   thinking_faces:
-  - (⚙)
-  - (⌁)
-  - (<>)
+    - "(⚙)"
+    - "(⌁)"
+    - "(◇)"
   thinking_verbs:
-  - processing
-  - analysing
-  - computing
+    - "processing"
+    - "analysing"
+    - "computing"
+  # Wing pairs decorate the spinner with theme brackets. 3-4 pairs recommended.
   wings:
-  - - ⟪⚡
-    - ⚡⟫
+    - ["⟪⚡", "⚡⟫"]
+
 branding:
-  agent_name: My Agent
-  welcome: Welcome. Type your message or /help for commands.
-  goodbye: Session closed.
-  response_label: ' ⚡ My Agent '
-  prompt_symbol: '⚡ '
-  help_header: (⚡) Commands
-tool_prefix: │
-banner_logo: '[bold #FFD700]MY AGENT[/]'
-banner_hero: '[#FFD700]Custom art here[/]'
+  agent_name:     "My Agent"
+  welcome:        "Welcome. Type your message or /help for commands."
+  goodbye:        "Session closed."
+  response_label: " ⚡ My Agent "
+  prompt_symbol:  "⚡ "
+  help_header:    "(⚡) Commands"
+
+tool_prefix: "│"
+
+# Optional. Map tool names to a single themed glyph; missing tools fall back to default.
+# Canonical tool list: terminal, web_search, read_file, write_file, search_files,
+#                      execute_code, browser_navigate, delegate_task, mixture_of_agents,
+#                      memory, clarify, cronjob, process, todo
+# tool_emojis:
+#   terminal: "⚙"
+#   web_search: "◉"
+#   read_file: "📄"
+
+# Multi-line block ASCII title with optional themed subtitle below.
+# Rich markup supported: [#RRGGBB]text[/], [bold #RRGGBB]text[/], [colour on bg]text[/].
+# For per-character gradients use one tag per character (see SCHEMA.md).
+banner_logo: |-
+  [bold #FFD700]MY AGENT[/]
+
+# Decorative hero rendered below the logo. Often a braille-art piece (image-derived)
+# or a hand-composed multi-line ASCII composition with Rich markup.
+banner_hero: |-
+  [#FFD700]Custom art here[/]
