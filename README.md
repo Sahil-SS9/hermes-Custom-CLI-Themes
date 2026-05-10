@@ -28,22 +28,89 @@ Or activate just for the current session by typing `/skin kensei` inside Hermes.
 
 ## Skins
 
-| Skin | Theme | File |
-| --- | --- | --- |
-| **KENSEI** | Sword saint — deep ink, blood lacquer, old gold, parchment, drawn steel | [`skins/kensei.yaml`](skins/kensei.yaml) |
-| **Shonen Surge** | Dark Naruto — nine-tails cloak, cursed chakra, magenta synthwave aura | [`skins/shonen-surge.yaml`](skins/shonen-surge.yaml) |
-| **Free Palestine** | Sumud, watan, zaytoun. From the river to the sea, dignified solidarity | [`skins/free-palestine.yaml`](skins/free-palestine.yaml) |
-| **Lord Commander** | Star Wars Imperial — superlaser primed, the rebellion ends here | [`skins/imperial.yaml`](skins/imperial.yaml) |
-| **Legion** | Anonymous / V — matrix green, signal magenta, we do not forgive | [`skins/cyberpunk-anonymous.yaml`](skins/cyberpunk-anonymous.yaml) |
-| **Tarnished** | Souls / Elden Ring — fell from grace, the Lands Between | [`skins/tarnished.yaml`](skins/tarnished.yaml) |
-| **Voyager** | Lonely interstellar drifter — captain's-log calm, a pale blue dot fading | [`skins/voyager.yaml`](skins/voyager.yaml) |
-| **Noir Signal** | Private investigator — case files, dossiers, the bulb's still on | [`skins/noir-signal.yaml`](skins/noir-signal.yaml) |
-| **Shadow Monarch** | Solo Leveling — ARISE, the system has chosen, shadow soldiers | [`skins/solo-leveling-boss.yaml`](skins/solo-leveling-boss.yaml) |
-| **Future Monkey** | Pink astronaut chimp — helmet glow, T-minus swagger, banana telemetry | [`skins/future-monkey.yaml`](skins/future-monkey.yaml) |
-| **Snake** | Metal Gear Solid — tactical espionage, CODEC 140.85, war has changed | [`skins/metal-gear-solid.yaml`](skins/metal-gear-solid.yaml) |
-| **CYBORG** | Terminator HUD — target acquired, threat assessed, termination protocol | [`skins/cyborg.yaml`](skins/cyborg.yaml) |
+### KENSEI
+> KENSEI -- sword saint. Deep ink, blood lacquer, and drawn steel.
 
-Screenshots are committed under `screenshots/` for the flagship skins. Run `python3 scripts/generate_screenshots.py` to render the full set as HTML.
+![kensei](screenshots/kensei.png)
+
+`skins/kensei.yaml`
+
+### Tarnished
+> Fell from grace. Pale gold, ember red, ash grey, and the long dark of the Lands Between.
+
+![tarnished](screenshots/tarnished.png)
+
+`skins/tarnished.yaml`
+
+### Lord Commander
+> The ultimate weapon stands ready. Superlaser primed, the galaxy bows, the rebellion ends here.
+
+![imperial](screenshots/imperial.png)
+
+`skins/imperial.yaml`
+
+### Snake
+> Tactical espionage CODEC -- Snake, do you copy?
+
+![metal-gear-solid](screenshots/metal-gear-solid.png)
+
+`skins/metal-gear-solid.yaml`
+
+### Shonen Surge
+> Shonen Surge -- nine-tails cloak. Cursed chakra. Aura unleashed.
+
+![shonen-surge](screenshots/shonen-surge.png)
+
+`skins/shonen-surge.yaml`
+
+### Shadow Monarch
+> Shadow Monarch terminal -- ARISE. The system has chosen.
+
+![solo-leveling-boss](screenshots/solo-leveling-boss.png)
+
+`skins/solo-leveling-boss.yaml`
+
+### Legion
+> Mask on. Legion at the wire. Matrix green, signal magenta, surveillance void -- we do not forgive, we do not forget.
+
+![cyberpunk-anonymous](screenshots/cyberpunk-anonymous.png)
+
+`skins/cyberpunk-anonymous.yaml`
+
+### CYBORG
+> Cyborg HUD -- target acquired, threat assessed, termination protocol engaged.
+
+![cyborg](screenshots/cyborg.png)
+
+`skins/cyborg.yaml`
+
+### Future Monkey
+> Pink astronaut chimp -- helmet glow, T-minus swagger, banana telemetry.
+
+![future-monkey](screenshots/future-monkey.png)
+
+`skins/future-monkey.yaml`
+
+### Voyager
+> Lonely interstellar drifter -- captain's-log calm, telemetry whispers, a pale blue dot fading behind.
+
+![voyager](screenshots/voyager.png)
+
+`skins/voyager.yaml`
+
+### Noir Signal
+> Private investigator's terminal. Case files, dossiers, the bulb's still on.
+
+![noir-signal](screenshots/noir-signal.png)
+
+`skins/noir-signal.yaml`
+
+### Free Palestine
+> Free Palestine -- sumud, watan, zaytoun. To remain is a victory.
+
+![free-palestine](screenshots/free-palestine.png)
+
+`skins/free-palestine.yaml`
 
 ## Creating your own
 
