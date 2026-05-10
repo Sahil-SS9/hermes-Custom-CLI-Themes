@@ -8,13 +8,13 @@ A small, opinionated skin pack. Each skin is a single YAML — palette, spinner,
 
 **One-liner (any skin)**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Sahil-SS9/hermes-Custom-CLI-Theme/main/scripts/install.sh | bash -s <skin>
+curl -fsSL https://raw.githubusercontent.com/Sahil-SS9/hermes-Custom-CLI-Themes/main/scripts/install.sh | bash -s <skin>
 ```
 
 **Manual**
 ```bash
 mkdir -p ~/.hermes/skins
-curl -fsSL https://raw.githubusercontent.com/Sahil-SS9/hermes-Custom-CLI-Theme/main/skins/kensei.yaml \
+curl -fsSL https://raw.githubusercontent.com/Sahil-SS9/hermes-Custom-CLI-Themes/main/skins/kensei.yaml \
   -o ~/.hermes/skins/kensei.yaml
 ```
 

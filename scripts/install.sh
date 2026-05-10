@@ -4,7 +4,7 @@
 
 set -euo pipefail
 skin="${1:-kensei}"
-repo="https://raw.githubusercontent.com/Sahil-SS9/hermes-Custom-CLI-Theme/main"
+repo="https://raw.githubusercontent.com/Sahil-SS9/hermes-Custom-CLI-Themes/main"
 skins_dir="$HOME/.hermes/skins"
 config="$HOME/.hermes/config.yaml"
 
