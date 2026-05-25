@@ -17,3 +17,4 @@ screenshots/preview/
 # Agent context drops
 CLAUDE.md
 AGENTS.md
+.claude/
